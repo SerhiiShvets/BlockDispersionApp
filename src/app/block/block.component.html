@@ -1,0 +1,5 @@
+<div class="block-container">
+    <div *ngFor="let block of blocks; let index = index" [ngClass]="isEven(index) ? 'even' : 'odd'">
+        <a (click)="emitBlockInfo(block.value, index)">{{ block.value }}</a> 
+    </div>
+</div>

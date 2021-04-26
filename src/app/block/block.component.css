@@ -1,0 +1,24 @@
+.block-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #000000;
+    height: 100%;
+}
+
+.even {
+    flex-grow: 1;
+}
+
+.odd {
+    flex-grow: 2;
+}
